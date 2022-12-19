@@ -1,11 +1,7 @@
 import java.util.Scanner;
-   
 public class daftarmenu {
-  public static void main(String args[]){
-            
+  public static void main(String args[]){     
     Scanner input = new Scanner(System.in);
-     
-
     int pilih;
     double 	jml,
 			t1=0,
@@ -16,7 +12,6 @@ public class daftarmenu {
 			t6=0,
 			TK;
     char ulang;
-     
     do {
 		System.out.println("Rumah Makan Warumindo");
 		System.out.println("Akang Baraya");
@@ -30,11 +25,9 @@ public class daftarmenu {
 		System.out.println("7. Keluar - Tak Jadi memesan");
 		System.out.println("----------------");
 		System.out.println("Pilih [1-7] :");
-       
-      System.out.print("Pilihan anda: ");
-      pilih = input.nextInt();
-    
-      switch(pilih) {
+     	System.out.print("Pilihan anda: ");
+      	pilih = input.nextInt();
+      	switch(pilih) {
 		case 1:
 			System.out.print("Nasi Goreng At 10K, beli berapa porsi = ");
 			jml=input.nextDouble();
@@ -71,25 +64,19 @@ public class daftarmenu {
 			t6=jml*12000;
 			System.out.println("Nasi Magelangan yang anda pesan seharga = Rp."+t6);
                         break;
-                case 7:
-                        System.out.println("Anda Batal Memesan, Anda Tak Memiliki Uang !");
-                        System.exit(0);
-			
+        case 7:
+            System.out.println("Anda Batal Memesan, Anda Tak Memiliki Uang !");
+            System.exit(0);
 		}
-    
-      System.out.println();
-    
-      System.out.println("Ingin meneruskan pesanan ? / mengakhiri pesanan ?");
-      System.out.print("y/t ? : ");
-      ulang = input.next().charAt(0);
-       
-      System.out.println();
-    }
-    while (ulang!= 't');
-    
-   TK=(t1+t2+t3+t4+t5+t6);
-   System.out.println("Total Pesanan = "+t1+" + "+t2+" + "+t3+" + "+t4+" + "+t5+" + "+t6+" = "+TK);
-   System.out.println("Terimakasih Telah Memesan");
-  
-  }
-}
+    		System.out.println();
+    		System.out.println("Ingin meneruskan pesanan ? / mengakhiri pesanan ?");
+    		System.out.print("y/t ? : ");
+    		ulang = input.next().charAt(0);
+    		System.out.println();
+    	}
+    		while (ulang!= 't');
+			TK=(t1+t2+t3+t4+t5+t6);
+			System.out.println("Total Pesanan = "+t1+" + "+t2+" + "+t3+" + "+t4+" + "+t5+" + "+t6+" = "+TK);
+			System.out.println("Terimakasih Telah Memesan");
+		}
+	}
