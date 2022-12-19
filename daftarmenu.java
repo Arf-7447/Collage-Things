@@ -35,31 +35,31 @@ public class daftarmenu {
 			System.out.println("Nasi Goreng yang anda pesan seharga = Rp."+total1);
                         break;
 		case 2:
-			System.out.print("Nasi Uduk At 8k, beli berapa porsi =");
+			System.out.print("Nasi Uduk At 8k, beli berapa porsi = ");
 			jumlah=input.nextDouble();
 			total2=jumlah*8000;
 			System.out.println("Nasi Uduk yang anda pesan seharga = Rp."+total2);
                         break;
 		case 3:
-			System.out.print("Nasi Kuning At 9,5k , beli berapa porsi =");
+			System.out.print("Nasi Kuning At 9,5k , beli berapa porsi = ");
 			jumlah=input.nextDouble();
 			total3=jumlah*9500;
 			System.out.println("Nasi Kuning yang anda pesan seharga = Rp."+total3);
                         break;
 		case 4:
-			System.out.print("Nasi Kucing At 2k, beli berapa porsi =");
+			System.out.print("Nasi Kucing At 2k, beli berapa porsi = ");
 			jumlah=input.nextDouble();
 			total4=jumlah*2000;
 			System.out.println("Nasi Kucing yang anda pesan seharga = Rp."+total4);
                         break;
 		case 5:
-			System.out.print("Nasi Orak-Arik At 9k, beli berapa porsi =");
+			System.out.print("Nasi Orak-Arik At 9k, beli berapa porsi = ");
 			jumlah=input.nextDouble();
 			total5=jumlah*9000;
 			System.out.println("Nasi Orak-Arik yang anda pesan seharga = Rp."+total5);
                         break;
 		case 6:
-			System.out.print("Nasi Magelangan At 12k, beli berapa porsi =");
+			System.out.print("Nasi Magelangan At 12k, beli berapa porsi = ");
 			jumlah=input.nextDouble();
 			total6=jumlah*12000;
 			System.out.println("Nasi Magelangan yang anda pesan seharga = Rp."+total6);
