@@ -115,14 +115,25 @@ public class Daftarmenu_with_oop {
             }
             while (ulang !='t');
             TK=(Ngr.getT1()+Nuk.getT2()+Nkn.getT3()+Nci.getT4()+Nok.getT5()+Nlg.getT6());
-            System.out.println("Keseluruhan Daftar Menu Yang Telah Pesan");
+            System.out.println("Keseluruhan Daftar Menu Yang Telah DI Pesan");
+            System.out.println();
+            System.out.println();
+            System.out.println();
             System.out.println("1. Nasi Goreng Seharga Rp.10.000 sebanyak "+Ngr.getjml1()+" porsi, dengan total harga Rp."+Ngr.getT1());
+            System.out.println();
             System.out.println("2. Nasi Uduk seharga Rp.8000 sebanyak "+Nuk.getjml2()+" porsi, dengan total harga Rp."+Nuk.getT2());
+            System.out.println();
             System.out.println("3. Nasi Kuning seharga Rp.9500 sebanyak "+Nkn.getjml3()+" porsi, dengan total harga Rp."+Nkn.getT3());
+            System.out.println();
             System.out.println("4. Nasi Kucing seharga Rp.2000 sebanyak "+Nci.getjml4()+" porsi, dengan total harga Rp."+Nci.getT4());
+            System.out.println();
             System.out.println("5. Nasi Orak-arik seharga Rp.9000 "+Nok.getjml5()+" porsi, dengan total harga Rp."+Nok.getT5());
+            System.out.println();
             System.out.println("6. Nasi Magelangan seharga Rp.12000 "+Nlg.getjml6()+" porsi, dengan total harga Rp."+Nlg.getT6());
+            System.out.println();
+            System.out.println();
             System.out.println("Total Seluruh Tagihan Yang Harus Di Bayar Adalah Rp."+TK);
+            System.out.println();
             System.out.println("Terimakasih Telah Datang Dan Memesan Di Akang Baraya ^^");
             input.close();
 
