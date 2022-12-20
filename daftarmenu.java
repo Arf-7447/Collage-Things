@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// import java.io.IOException;
 public class daftarmenu {
   public static void main(String args[]){     
     Scanner input = new Scanner(System.in);
@@ -73,6 +74,7 @@ public class daftarmenu {
     		System.out.print("y/t ? : ");
     		ulang = input.next().charAt(0);
     		System.out.println();
+			System.out.print("\u001B[2J");
     	}
     		while (ulang!= 't');
 			TK=(t1+t2+t3+t4+t5+t6);
