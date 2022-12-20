@@ -1,3 +1,4 @@
+package daftarmenu_with_oop;
 import java.util.Scanner;
 // import java.io.IOException;
 public class daftarmenu {
