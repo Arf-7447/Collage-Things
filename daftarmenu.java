@@ -77,6 +77,6 @@ public class daftarmenu {
     		while (ulang!= 't');
 			TK=(t1+t2+t3+t4+t5+t6);
 			System.out.println("Total Pesanan = "+t1+" + "+t2+" + "+t3+" + "+t4+" + "+t5+" + "+t6+" = "+TK);
-			System.out.println("Terimakasih Telah Memesan");
+			System.out.println("Terimakasih Telah Memesan ^^");
 		}
 	}
