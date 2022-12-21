@@ -144,9 +144,9 @@ public class Daftarmenu_with_oop {
             System.out.println();
             System.out.println("4. Nasi Kucing seharga Rp.2000 sebanyak "+Nci.getjml4()+" porsi, dengan total harga Rp."+Nci.getT4());
             System.out.println();
-            System.out.println("5. Nasi Orak-arik seharga Rp.9000 "+Nok.getjml5()+" porsi, dengan total harga Rp."+Nok.getT5());
+            System.out.println("5. Nasi Orak-arik seharga Rp.9000 sebanyak "+Nok.getjml5()+" porsi, dengan total harga Rp."+Nok.getT5());
             System.out.println();
-            System.out.println("6. Nasi Magelangan seharga Rp.12000 "+Nlg.getjml6()+" porsi, dengan total harga Rp."+Nlg.getT6());
+            System.out.println("6. Nasi Magelangan seharga Rp.12000 sebanyak "+Nlg.getjml6()+" porsi, dengan total harga Rp."+Nlg.getT6());
             System.out.println();
             System.out.println();
             System.out.println("Total Seluruh Tagihan Yang Harus Di Bayar Adalah Rp."+TK);
