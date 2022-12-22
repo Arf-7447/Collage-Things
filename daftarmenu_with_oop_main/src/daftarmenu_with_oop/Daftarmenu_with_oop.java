@@ -152,6 +152,8 @@ public class Daftarmenu_with_oop {
             System.out.println("Total Seluruh Tagihan Yang Harus Di Bayar Adalah Rp."+TK);
             System.out.println();
             System.out.println("Terimakasih Telah Datang Dan Memesan Di Akang Baraya ^^");
+            System.out.println();
+            System.out.println();
             input.close();
             
         }
