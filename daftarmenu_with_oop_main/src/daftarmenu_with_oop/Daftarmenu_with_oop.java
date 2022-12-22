@@ -73,7 +73,7 @@ public class Daftarmenu_with_oop {
             case 3 :
             Nkn.setNama("Naskun");
             Nkn.Infodaftarmenu();
-            System.out.println("Harga Nasi Uduk Rp.9,500");
+            System.out.println("Harga Nasi Kuning Rp.9,500");
             System.out.print("Jumlah porsi yang akan dipesan ? ");
             Nkn.setjml3(input.nextInt());
             System.out.println("===============================");
@@ -84,7 +84,7 @@ public class Daftarmenu_with_oop {
             case 4 :
             Nci.setNama("Nascing");
             Nci.Infodaftarmenu();
-            System.out.println("Harga Nasi Uduk Rp.2000");
+            System.out.println("Harga Nasi Kucing Rp.2000");
             System.out.print("Jumlah porsi yang akan dipesan ? ");
             Nci.setjml4(input.nextInt());
             System.out.println("===============================");
@@ -95,7 +95,7 @@ public class Daftarmenu_with_oop {
             case 5 :
             Nok.setNama("Nasrik");
             Nok.Infodaftarmenu();
-            System.out.println("Harga Nasi Uduk Rp.9,000");
+            System.out.println("Harga Nasi Orak-Arik Rp.9,000");
             System.out.print("Jumlah porsi yang akan dipesan ? ");
             Nok.setjml5(input.nextInt());
             System.out.println("===============================");
@@ -106,7 +106,7 @@ public class Daftarmenu_with_oop {
             case 6 :
             Nlg.setNama("Naslang");
             Nlg.Infodaftarmenu();
-            System.out.println("Harga Nasi Uduk Rp.12,000");
+            System.out.println("Harga Nasi Magelangan Rp.12,000");
             System.out.print("Jumlah porsi yang akan dipesan ? ");
             Nlg.setjml6(input.nextInt());
             System.out.println("===============================");
